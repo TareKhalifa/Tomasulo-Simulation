@@ -1,0 +1,2 @@
+# Tomasulo-Simulation
+This project is a simulator of a simplified, 16-bit out of order RISC processor that uses Tomasulo’s algorithm. It is implemented in C++. The program takes input in the form of an assembly program that is composed of several supported instructions, then simulates the usage of Tomasulo’s algorithm with the inputted program and outputs the total execution time, the IPC, the branch misprediction percentage.
