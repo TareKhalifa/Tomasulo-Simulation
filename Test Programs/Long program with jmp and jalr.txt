@@ -1,0 +1,20 @@
+addi R1, R2, 9
+addi R3, R2, 9
+sub R4, R3, R1
+nand R5, R4, R1
+jmp L1
+addi R3, R2, 9
+sub R4, R3, R1
+nand R5, R4, R1
+L1: sub R4, R3, R1
+sub R4, R3, R1
+sub R4, R3, R1
+addi R5, R0, 14
+jalr R5,R5
+sub R4, R3, R1
+addi R5, R0, 13
+endend
+PC = 0
+0, 1
+2, 3
+4, 4

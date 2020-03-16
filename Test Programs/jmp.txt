@@ -1,0 +1,10 @@
+lw R1, R0, 0
+addi R2, R0, 9
+jmp L1
+L1: sub R2, R2, R1
+sw R2, R1,1
+endend
+PC = 0
+0, 1
+2, 3
+4, 4

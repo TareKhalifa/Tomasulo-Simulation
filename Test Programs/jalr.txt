@@ -1,0 +1,21 @@
+addi R1,R1,2
+addi R6, R6, 15
+jalr R5, R6
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+add R2,R1,R0
+endend
+PC = 0
+0, 1
+2, 3
+4, 4

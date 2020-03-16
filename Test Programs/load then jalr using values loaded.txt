@@ -1,0 +1,19 @@
+lw R1, R0, 0
+jalr R2, R1
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+add R0, R0, R0
+endend
+PC = 0
+0, 12
+1, 3
+4, 4

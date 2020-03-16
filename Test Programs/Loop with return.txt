@@ -1,0 +1,11 @@
+addi R1, R0, 3
+addi R2, R0, 4
+mul R1,R1,R1
+addi R7, R7, 2
+ret R7
+mul R5,R1,R2
+endend
+PC = 0
+0, 1
+2, 3
+4, 4

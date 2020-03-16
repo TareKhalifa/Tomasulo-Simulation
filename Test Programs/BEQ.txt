@@ -1,0 +1,14 @@
+add R1, R2, R3
+L1: sub R1, R2,R3
+addi R2,R2,2
+addi R3,R3,3
+add R1, R2, R3
+sub R1, R2,R3
+beq R3,R2, L1
+add R1, R2, R3
+sub R1, R2,R3
+endend
+PC = 0
+0, 1
+2, 3
+4, 4
